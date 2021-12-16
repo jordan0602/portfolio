@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio JL</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="bandeau">
+            <h4>Jordan "Shijo" Lefrançois</h4>
+            <nav>
+                <ul>
+                    <li><a href="#partieCV">CV</a></li>
+                    <li><a href="#partieCAR">Projets</a></li>
+                    <li><a href="#contactbck">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <section>
+            <h1> <blockquote>"La seule manière de faire du bon travail,<br> c'est d'aimer ce que vous faites."</blockquote> </h1>
+        </section>
+    </header>
+    <main>
+        <section id="partieCV">
+            <div id="container">
+                <div class="cv">
+                    <h2>Curriculum vitæ</h2>
+                    <p>
+                        Bonjour et merci de prendre le temps de visiter mon Portfolio.
+                        Je me nomme Lefrançois Jordan, de mon pseudo “Shijo”, et j'ai actuellement 26 ans.
+                        <br>
+                        M’étant arrêté au niveau Baccalauréat Scientifique, je me suis dirigé par défaut vers la grande distribution, puis dans de plus petits commerces. Fort de mes sept ans,la rigueur fut la première étape pour intégrer ce domaine. J’ai appris à devoir satisfaire la clientèle, être à leur écoute,communiquer, toujours souriant et de bonne humeur. J’ai du gagner en responsabilité et prise de décision afin d'évoluer au mieux vers un poste plus élevé tel que fut le cas à grand frais lorsque je suis devenu responsable “adjoint” de la ligne de caisse.
+                        <br>
+                        <br>
+                        J’ai énormément apprécié être au contact de la clientèle, apprendre de ses personnes si différentes les unes des autres, on a tous quelque chose à apprendre des autres. Ceci m'a donné l’envie de voyager, de découvrir et d'apprécier des cultures différentes de la nôtre. Mes derniers en date étant le Danemark, la Norvège et le Japon. 
+                        Je suis un passionné de cinéma et de jeux vidéos, cette dernière m’a donné l’idée d’une réorientation professionnelle, j’ai donc découvert le métier de développeur Front-end.
+                        Et c’est aujourd’hui avec plaisir que je suis une formation développeur Front à l’institut Marie-Thérèse Solacroup à Dinard.
+                        <br>
+                        <br>
+                        J'apprend désormais à coder de manière intensive en HTML, CSS et Javascript. Quelques notions ont été abordés en C et en Python mais n'ont pas été poussés. Nous y avons également appris à nous servir d'outils de maquettages tel que Figma, à coder sur des sites no-codes tel quel Bubble.io et apprendrons bientot à nous servir de Wordpress
+                    </p>
+                    <a href="./JordanLefrancoisCV.pdf">Télécharger le CV</a>
+                </div>
+                <div id="moi"></div>
+            </div>
+        </section>
+
+        <section id="partieCAR">
+            <h2>Mes Projets :</h2>
+            <div class="image-slider">
+                <div class="slides-div" id="slide-1">
+                    <img src="./image/site_deeplantern.png" alt="deeplantern" class="img" id="img1">
+                    <a href="#slider-span1" class="button" id="button-1"></a>
+                </div>
+                <div class="slides-div" id="slide-2">
+                    <img src="./image/site_sunnyside.png" alt="sunnyside"  class="img" id="img2">
+                    <a href="#slider-span2" class="button" id="button-2"></a>
+                </div>
+                <div class="slides-div" id="slide-3">
+                    <img src="./image/Site_surfvan.png" alt="surfvan"  class="img" id="img3">
+                    <a href="#slider-span3" class="button" id="button-3"></a>
+                </div>
+                <div class="slides-div" id="slide-4">
+                    <img src="./image/COMFYMAIL.png" alt="ComfyMail"  class="img" id="img4">
+                    <a href="#slider-span4" class="button" id="button-4"></a>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contactbck">
+            <div id="contact">
+                <h2>Me contacter</h2>
+                <div class="contacter">
+                    <form action="https://formspree.io/f/mlezernd" method="POST">
+                        <input type="email" placeholder="Votre adresse email" name="Adresse">
+                        <input type="text" placeholder="Nom et Prénom" name="Identite">
+                        
+                        <div id="Message">
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        
+                        </div>
+                        <input type="submit" value="Envoyer">
+                    </form>
+                </div>
+            </div>
+    
+            <div class="reseaux">
+                <div class="insta">
+                    <a href="https://www.instagram.com/jarl_shijo/"><img src="./image/icons8-instagram-48.png" alt="insta"></a>
+                    Jarl_Shijo
+                </div>
+                <div class="linkedin">
+                    <a href="https://fr.linkedin.com/in/jordan-shijo-lefrancois"><img src="./image/icons8-linkedin-48.png" alt="linkedin"></a>
+                    jordan-shijo-lefrancois
+                </div>
+                <div class="twitter">
+                    <a href="https://twitter.com/Jarl_Shijo"><img src="./image/icons8-twitter-48.png" alt="twitter"></a>
+                    Jarl_Shijo
+                </div>
+                <div class="gmail">
+                    <img src="./image/gmail_new_logo_icon_159149.png" alt="gmail">
+                    jordan.lefrancois5@gmail.com
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>Portfolio de Lefrançois Jordan, développeur front-end </div>
+        <div>2021 &copy;</div>
+    </footer>
+</body>
+</html>
